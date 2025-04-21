@@ -17,7 +17,7 @@ while(true)
       customdns -- set custom dns 
       reset -- reset network 
       chattr -- lock dns file
-      uchatter -- break lock dns file
+      uchatter -- unlock dns file
     '''.center(0).colorize(:yellow)
   elsif command == "shecanDns"
     puts "starting shecan dns".colorize(:green)
